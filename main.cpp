@@ -19,7 +19,7 @@ int main() {
 	set<int> answerSet(ans.begin(), ans.end());
 	set<int> soln = {56, 14, 7, 28};
 	bool first = (answerSet == soln);
-	soln = {56, 28, 14, 2};
+	soln = {56, 14, 2, 28};
 	bool second = (answerSet == soln);
 	assert(first || second);
 
